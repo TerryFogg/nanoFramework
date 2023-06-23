@@ -5,9 +5,7 @@ parent: Getting Started
 nav_order: 1
 ---
 
-# **Creating Managed Applications**
 
-Use nanoFramework to create managed applications with a basic infrastructure that developers of constrained embedded systems need for fast, seamless development. The customized CLR and the class libraries are carefully crafted for use on small embedded devices. This programming model contains the same key components as the .NET Framework and the .NET Compact Framework. Specifically, it employs a common language runtime (CLR) and a set of class libraries.
 
 For more specific information on the nanoFramework hardware and software architecture, see [Understanding nanoFramework Architecture](https://docs.microsoft.com/en-us/previous-versions/windows/embedded/jj646623(v=vs.102)).
 

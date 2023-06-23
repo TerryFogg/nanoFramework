@@ -6,7 +6,7 @@ nav_order: 1
 ---
 
 
-# Developing native nanoFramework with Visual Studio
+# Developing with Visual Studio
 
 
 
