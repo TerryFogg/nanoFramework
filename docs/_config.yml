@@ -4,4 +4,27 @@ theme: just-the-docs
 
 url: https://TerryFogg.github.io/nanoFramework/docs
 
+# Enable or disable the site search
+# Supports true (default) or false
+search_enabled: true
 
+
+ # Aux links for the upper right navigation
+aux_links:
+  "Just the Docs documentation":
+    - "https://just-the-docs.com"
+
+
+  # By default, consuming the theme as a gem leaves mermaid disabled; it is opt-in
+mermaid:
+  # Version of mermaid library
+  # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
+  version: "9.4.3"
+  # Put any additional configuration, such as setting the theme, in _includes/mermaid_config.js
+  # See also docs/ui-components/code
+  # To load mermaid from a local library, also use the `path` key to specify the location of the library; e.g.
+  # for (v10+):
+  path: "/assets/js/mermaid.min.js"
+  # for (<v10):
+  # path: "/assets/js/mermaid.min.js"
+  # Note: copy both `mermaid.esm.min.mjs` (v10+) or `mermaid.min.js` (<v10) and the associated `.map` file from the specified version of `mermaid/dist` to `/assets/js/`.
