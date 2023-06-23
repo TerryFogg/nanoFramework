@@ -1,7 +1,9 @@
+---
 layout: default
 title: Embedded C#
 parent: Getting Started
 nav_order: 1
+---
 
 # **Creating Managed Applications**
 
