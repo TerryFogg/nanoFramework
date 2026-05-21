@@ -75,6 +75,14 @@
             }
         },
         {
+            "name": "TERRY_BUILD",
+            "description": "Using my build process.",
+            "hidden": true,
+            "cacheVariables": {
+                "TERRY_BUILD": true
+            }
+        },
+        {
             "name": "ADVANCED_PROFILING",
             "description": "Configuration for setting up code profiling",
             "hidden": true,
@@ -243,6 +251,7 @@
             "hidden": true,
             "inherits": [
                 "general-preset",
+                "TERRY_BUILD",
                 "THREADX_AND_COMPONENT_PATHS",
                 "DOUBLE_PRECISION_MATHEMATICS",
                 "PICO_SDK"
