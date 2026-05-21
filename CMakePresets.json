@@ -1,0 +1,9 @@
+{
+    "version": 4,
+    "include": [
+        "nf-interpreter/CMake/base.json",
+        "nf-interpreter/CMakePresets.json",
+        "MyTargets/ThreadX/CMake/CMakePresets.json"
+    ]
+}
+
